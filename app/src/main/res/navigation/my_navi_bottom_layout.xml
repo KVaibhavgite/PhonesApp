@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navi_bottom_layout"
+    app:startDestination="@id/dial_Menu">
+
+    <fragment
+        android:id="@+id/dial_Menu"
+        android:name="com.example.phones.Dial_Menu"
+        android:label="fragment_dial_menu"
+        tools:layout="@layout/fragment_dial__menu" />
+    <fragment
+        android:id="@+id/contacts_Menu"
+        android:name="com.example.phones.Contacts_Menu"
+        android:label="fragment_contacts_menu"
+        tools:layout="@layout/fragment_contacts__menu" />
+    <fragment
+        android:id="@+id/favorites_Menu"
+        android:name="com.example.phones.Favorites_Menu"
+        android:label="fragment_favorites_menu"
+        tools:layout="@layout/fragment_favorites__menu" />
+</navigation>

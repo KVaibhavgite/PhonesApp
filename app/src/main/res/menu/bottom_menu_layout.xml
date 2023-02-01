@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/dial_Menu"
+        android:title="Dial"
+        android:icon="@drawable/dial"
+        />
+    <item
+        android:id="@+id/contacts_Menu"
+        android:title="Contacts"
+        android:icon="@drawable/contacts"/>
+    <item
+        android:id="@+id/favorites_Menu"
+        android:title="Favorites"
+        android:icon="@drawable/favorites" />
+
+</menu>
